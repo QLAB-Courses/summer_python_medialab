@@ -43,26 +43,39 @@ The evaluation consists of a final work at the end of the course.
 | 8 | 4 evaluations | 80% |
 | 1 | Final project | 20%|
 
-## VII. Compulsory Bibliography
+## VII. Bibliography
 
-1.	"Python for Data Science Handbook" by Jake VanderPlas (O'Reilly, 2017) 
-2.	"Python Crash Course" by Eric Matthes (No Starch Press, 2015) 
-3.	"Python for Everyone" by Horstmann and Reed (Wiley, 2015)
-4.	Stackoverflow
+### Compulsory
+
+1.	"Think Python: How to Think Like a Computer Scientist" by A. Downey (O'Reilly Media, 2015), pp. 187-256.
+2.	"Automate the Boring Stuff with Python: Practical Programming for Total Beginners" by A. Sweigart (No Starch Press, 2015), pp. 13-263.
+3.	"Python Programming: An Introduction to Computer Science" by J. Zelle (Franklin, Beedle & Associates Inc., 2017), pp. 175-362.
+4.	"Practical Web Scraping for Data Science: Best Practices and Examples with Python" by S. Broucke & B. Baesens (Springer: Apress, 2018), pp. 3-172.
+5.	"Hands-On: Web Scraping with Python" by A. Chapagain (Pack, 2019), pp. 57-218.
+
+### Complementary
+
+1. "Web Scraping with Python: Collecting More Data from the Modern Web" by R. Mitchell (O'Reilly Media, 2018).
+2. "Data Wrangling with Python: Tips and Tools to Make Your Life Easier" by J. Kazil & K. Jarmul (O'Reilly Media, 2017).
+3. "Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython" by W. McKinney (O'Reilly Media, 2017).
 
 ## VIII. Schedule
 
-|Week|Date|Day|Schedule|Topic|Subtopic
-|---|---|---|---|---|---
-|1|07/01/2025|07:00 - 10:00 pm| Github - Basic Objects| <ul>  <li>Installation</li>   <li>Branches</li>   <li>Repository </li> <li>Lists</li>   <li>Dictionaries</li>   <li>NumPy </li> </ul>   
-|2|09/01/2025|07:00 - 10:00 pm| Pandas | <ul>  <li> Series </li>   <li>Indexing</li>   <li>Importing Data </li> <li> Data wrangling </li> </ul>      
-|3|14/01/2025|07:00 - 10:00 pm | Control Structures, Functions and Classes| <ul>  <li> If condition </li>   <li> For loop</li>   <li> While Loop</li> <li> Function Definitions </li>   <li> *args and **kwwargs </li>   <li> \_init_</li> <li> Attributes and Methods</li> </ul>    
-|4|16/01/2025|07:00 - 10:00 pm| Web Scrapping| <ul>  <li>Web Scrapping I </li>  </ul>   
-|5|21/01/2025|07:00 - 10:00 pm| Web Scrapping| <ul>   <li>Web Scrapping II </li>   </ul> 
-|6|23/01/2025|07:00 - 10:00 pm| API| <ul>  <li> APIs</li>   </ul> 
-|7|28/01/2025|07:00 - 10:00 pm| Visualization| <ul>  <li> Visualization </li>   </ul> 
-|8|30/01/2025|07:00 - 10:00 pm| NLP| <ul>  <li> NLP </li>   <li> Transformers </li>   </ul> 
+|Week|Date|Day|Schedule|Topic|
+|---|---|---|---|---|
+|1|07/01/2025|07:00 - 10:00 pm| Introduction to Python| <ul>  <li>Setting up a programming environment</li>   <li>Basic syntax and data types</li>   <li>Variables and assignment </li> <li>Lists</li>   <li>Basic operators</li>   <li>Basic input and output </li> </ul>   
+|2|09/01/2025|07:00 - 10:00 pm| Controlling Structures | <ul>  <li> if-else statements </li>   <li>for loops</li>   <li>while loops </li> <li> break and continue </li> </ul>      
+|3|14/01/2025|07:00 - 10:00 pm | Functions| <ul>  <li> Defining and calling functions </li>   <li> Parameters and arguments</li>   <li> Return values</li> <li> Scope </li> </ul>    
+|4|16/01/2025|07:00 - 10:00 pm| Data Structures| <ul>  <li>Lists </li>  <li>Tuples </li>  <li>Dictionaries </li>  <li>JSON Files </li>  </ul>   
+|5|21/01/2025|07:00 - 10:00 pm| Classes and Objects| <ul>   <li>Classes and objects </li>   <li>Constructors and destructors </li>  </ul> 
+|6|23/01/2025|07:00 - 10:00 pm| Data Extraction- I| <ul>  <li> Web Scrapping- Static </li>   </ul> 
+|7|28/01/2025|07:00 - 10:00 pm| Data Extraction- II| <ul>  <li> Web Scrapping- Dynamic </li>   </ul> 
+|8|30/01/2025|07:00 - 10:00 pm| Data Extraction- III| <ul>  <li> APIs </li>   </ul> 
+
+
 ## IX. Groups
+
+
 | Group1                           | Group2                             | Group3                              | Group4                            |
 | -------------------------------- | ---------------------------------- | ----------------------------------- | --------------------------------- | 
 | COLLAVE GARCÍA, YERSON DAVID    | CAPACYACHI TRIVELLI, MAURICIO MARTIN |	DIAZ QUISPE, SERGIO FABIAN       | 	CAMPOS ALVARADO, OLENKA JUANITA       | 
