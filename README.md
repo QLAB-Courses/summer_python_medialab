@@ -10,7 +10,8 @@ This public repository contains the training materials, tutorials, code, and ass
 | Number of Hours of Theory | 24 hours |
 | Professor | Alexander Quispe Rojas |
 | PUCP email | alexander.quispe@pucp.edu.pe |
-
+| JP | Michael Encalada |
+| PUCP email | m.encaladac@pucp.edu.pe |
 
 ## II. Abstract
 
