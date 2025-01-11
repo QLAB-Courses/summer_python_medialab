@@ -83,8 +83,12 @@ The evaluation consists of a final work at the end of the course.
 | VILLANUEVA VALEGA, MARCELA     | RODRIGUEZ VALVERDE, JULIAN JOSEFH    | TORRE TORRE, MARIBEL ROSARIO         | VERA QUISPE, SANTIAGO ALBERTO       | 
 | MENDOZA GOMEZ, MIGUEL ANGEL | PICHIHUA VEGAS, SOFIA PAMELA       | ELIAS MANSILLA, FABIANA HILDA MARIA      | CONTRERAS VALLE, RENNZO FERNANDO JUNIOR |
 
+## X. Class Recordings
 
-## X. Website
+1. Session 1 (GitHub): https://youtu.be/vkGEdaCuJc8
+2. Session 2 (Introduction to Python): https://youtu.be/yGl_sRmy-kk
+
+## XI. Website
 
 1. Video tutorials
 - https://www.youtube.com/watch?v=zyGfECfJ9BY
