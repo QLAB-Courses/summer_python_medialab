@@ -1,0 +1,1026 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "5d198778",
+   "metadata": {},
+   "source": [
+    "# Assignment_1\n",
+    "If you copy codes from previous answers, explain each step. No explanation is `0 points`."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "853562f8",
+   "metadata": {},
+   "source": [
+    "##  Part 1.Data types\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "521b5fe7",
+   "metadata": {},
+   "source": [
+    "a.Declare one variable for each one these types: : int , float , string , boolean.\n",
+    "- Print  the varible's type using  type () function\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "b8adc928",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "11\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=11\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "42880f06-494a-4ab3-a798-8dcb6ade3c0e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "c729e4ae-92d4-425d-aecc-fad92b92103a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "10.5\n"
+     ]
+    }
+   ],
+   "source": [
+    "b=10.5\n",
+    "print(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "eb60d6c6-09bb-4e4f-a008-b465e6a1718b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "float"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "262beb92-8de3-4442-b495-90377c4dadb2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "comunicacion 2025\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_string_0=\"comunicacion 2025\"\n",
+    "print(my_string_0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "a19895c2-30fe-4bd5-adc7-042262029cbd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(my_string_0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "ec211495-9998-4d01-9431-b762075b56e4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "sergio=21\n",
+    "maribel=23"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "923a20c5-a070-45c1-b486-95aace67ba88",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "maribel>sergio"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "d5dd2773-652f-4cd3-bc9c-0127f1a6d979",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "bool"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(maribel>sergio)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ce38f1d9",
+   "metadata": {},
+   "source": [
+    " b. Using only the following inputs: ```5``` and ```2```  ,  work the  operators to get the output  : ```50```"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "3c735120-d52d-4674-b6ca-1976cfc293c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "50"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(5*5)*2"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "42009dda",
+   "metadata": {},
+   "source": [
+    "c. Evaluate if the output of the previous excercise is over 100. Create a variable that makes this evaluation. (Hint: It would be a boolean)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "e1226c5e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "50>100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "21578934-f8be-4b6d-9d02-fd6efb5fb81a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "bool"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(50>100)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "877a0395",
+   "metadata": {},
+   "source": [
+    "d. Create a variable equal to a list that contains: \n",
+    "- a string,\n",
+    "- a boolean,\n",
+    "- two numeric values ( of any kind)  and\n",
+    "- a  list of two strings with the names of your favourite musical artists. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "74bf37da-93a9-4a95-acbc-4605281312d5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Chayanne', 'LadyGaga']\n"
+     ]
+    }
+   ],
+   "source": [
+    "list_0 =[\"Chayanne\",\"LadyGaga\"]\n",
+    "print(list_0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "111b0f6d-9024-4314-8870-28eca359e341",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(list_0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 86,
+   "id": "a8c83170-a981-4013-8a9d-435431ead0a9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "list_1 = [\"egreso 2025\", True, 16, 0.54]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "id": "99928866-5a71-475e-9ba7-e22bd986aaf9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Chayanne', 'LadyGaga']\n"
+     ]
+    }
+   ],
+   "source": [
+    "list_1.append(list_0)\n",
+    "print(list_0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "93fee9f0-dd54-40b5-a5e1-e5b1f4dd1423",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['egreso 2025', True, 16, 0.54, ['Chayanne', 'LadyGaga'], ['Chayanne', 'LadyGaga']]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(list_1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "6cf7a893-7640-43a4-bf60-fe55725c65f6",
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 76,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(list_1)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e2a5f459",
+   "metadata": {},
+   "source": [
+    "## Part 2. Containers"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "51681d3c",
+   "metadata": {},
+   "source": [
+    "e. Create a tuple with 3 elements. Explain why you can't modify it. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "dd8d0079",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(2, 4.6, 'queso')\n"
+     ]
+    }
+   ],
+   "source": [
+    "tuple_0=(2,4.6,\"queso\")\n",
+    "print(tuple_0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "4e28ae20-3dc6-4eb9-b33a-90d1b55eccd1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "tuple"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(tuple_0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4e0242ff-b6d2-455c-a9be-36a55d0ed629",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#We can not modify a tuple because it has different types of elements."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "25ecd132",
+   "metadata": {},
+   "source": [
+    "f.Create a dictionary with at least 3 different  keys and values ."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "57ac77f1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'names': 'sergio_maribel_fabiana', 'average_age': 21, 'FCAC': True}\n"
+     ]
+    }
+   ],
+   "source": [
+    "grupo_3 ={\"names\":\"sergio_maribel_fabiana\",\"average_age\":21, \"FCAC\":True}\n",
+    "print(grupo_3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "d001f5d6-d742-4baf-b364-cbf1a7f76817",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "dict"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(grupo_3)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "88837e32",
+   "metadata": {},
+   "source": [
+    "g.We got the next courses list: "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "b75be7fb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "courses = [\"History\", \"Economy\", \"Anthropology\", \"Sociology \", \"Literature\"]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "005d3d70",
+   "metadata": {},
+   "source": [
+    "g.1.Add tree additional courses in 3 different ways( one for each way):\n",
+    "   - Sum (+) a list that contains an additional course. \n",
+    "   - Use append. \n",
+    "   - Use extend. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "6da21551-2bb0-445c-9c3e-34c742fb9e19",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['History', 'Economy', 'Anthropology', 'Sociology', 'Literature', 'Comunication', 'Science', 'Teology']\n"
+     ]
+    }
+   ],
+   "source": [
+    "courses =[\"History\",\"Economy\",\"Anthropology\",\"Sociology\",\"Literature\"]\n",
+    "courses=courses+[\"Comunication\"] #for sum\n",
+    "courses.append(\"Science\") #for append\n",
+    "courses.extend([\"Teology\"]) #for extend\n",
+    "print(courses)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6cf07d6a",
+   "metadata": {},
+   "source": [
+    "g.2.Use the indexation to stress _Sociology_."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "0a03e468",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Sociology\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(courses[4])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bfb7ace5",
+   "metadata": {},
+   "source": [
+    "g.3 Remove your least favourite course"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "63ea56cf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['History',\n",
+       " 'Anthropology',\n",
+       " 'Sociology',\n",
+       " 'Literature',\n",
+       " 'Comunication',\n",
+       " 'Science',\n",
+       " 'Teology']"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "leastfavcourse= \"Economy\"\n",
+    "courses.remove(leastfavcourse)\n",
+    "courses"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d07e8d7c",
+   "metadata": {},
+   "source": [
+    "g.4. Invert the list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "c32c86be",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['Teology',\n",
+       " 'Science',\n",
+       " 'Comunication',\n",
+       " 'Literature',\n",
+       " 'Sociology',\n",
+       " 'Anthropology',\n",
+       " 'History']"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "courses.reverse()\n",
+    "courses"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "17a5576a",
+   "metadata": {},
+   "source": [
+    "h.Create a dictionary that representst a fruits inventory:\n",
+    " - Add at least 5 fruits to the inventory\n",
+    "- Print the amount of apples in stock \n",
+    "- Modify the amount of grapes\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "a7ec16e9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Cantidad de manzanas: 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruits_inventory = {\"apple\" : 10, \"banana\" : 15, \"grape\" : 20, \"orange\" : 12, \"pineapple\" : 5}\n",
+    "print(\"Cantidad de manzanas:\", fruits_inventory[\"apple\"])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "5f4a1076-5833-4032-8312-f1fdeb4f2aba",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Nueva cantidad de uvas: 25\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruits_inventory[\"grape\"] = 25\n",
+    "print(\"Nueva cantidad de uvas:\", fruits_inventory[\"grape\"])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0c74c187",
+   "metadata": {},
+   "source": [
+    "i.  Write a dictionary with the local GMT of the nexts cities:\n",
+    "- Antananarivo, Madagascar, \n",
+    "- Beirut, Lebanon, \n",
+    "- Jakarta, Indonesia, \n",
+    "- Teherán, Iran, \n",
+    "- Vientiane, Laos, \n",
+    "\n",
+    "\n",
+    "\n",
+    "Hint: Lima would be: `\"Lima\": -5`"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "95e4b82d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'Antanarivo': 3, 'Beirut': 2, 'Jakarta': 7, 'Teheran': 3.5, 'Vientiane': 7}\n"
+     ]
+    }
+   ],
+   "source": [
+    "city_gmt = {\"Antanarivo\": 3, \"Beirut\": 2, \"Jakarta\": 7, \"Teheran\": 3.5, \"Vientiane\": 7}\n",
+    "print(city_gmt)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e0f93671",
+   "metadata": {},
+   "source": [
+    " j.Add the nexts cities to the dictionary:\n",
+    "- Astana, Kazakhstan,\n",
+    "- Uagadugú, Burkina Faso,\n",
+    "- Balmopan, Belize"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "0a5e75ef-15b8-41f1-bb12-844de1a8346b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "city_gmt[\"Astana\"] = 6\n",
+    "city_gmt[\"Uagadugu\"] = 0\n",
+    "city_gmt[\"Belompan\"] = -6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "8777e299-d2c7-4ae1-a7ea-06256df27b6f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "{'Antanarivo': 3, 'Beirut': 2, 'Jakarta': 7, 'Teheran': 3.5, 'Vientiane': 7, 'Astana': 6, 'Uagadugu': 0, 'Belompan': -6}\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(city_gmt)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c6c4f120",
+   "metadata": {},
+   "source": [
+    "# Part 3. Numpy\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ef5f5f96",
+   "metadata": {},
+   "source": [
+    "k.Create an array with 10 aleatory values that go from 0 to 9"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "6a420451-86cf-4720-bf27-0d1e59d0c204",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "e9d1e2d1-6ede-49a3-be46-a57631a158dd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0 1 2 3 4 5 6 7 8 9]\n"
+     ]
+    }
+   ],
+   "source": [
+    "numbers =np.array([0,1,2,3,4,5,6,7,8,9])\n",
+    "print(numbers)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "6fc45d10-633d-4d37-a629-17a1c3ce5543",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "numpy.ndarray"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(numbers)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f653f08e",
+   "metadata": {},
+   "source": [
+    "l.Create a matrix 3x2 fill with zeros"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "6aea98a5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[[0. 0.]\n",
+      " [0. 0.]\n",
+      " [0. 0.]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "m =np.zeros((3,2))\n",
+    "print(m)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b0cca53d",
+   "metadata": {},
+   "source": [
+    "m.Sum two arrays and then multiply the output by an scalar"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "7dca938e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[1 1 1]\n",
+      "[1 1 1]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "x = np.random.randint(1,2,3)\n",
+    "y = np.random.randint(1,2,3)\n",
+    "print(x)\n",
+    "print(y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "dcbdf31e-738c-49ac-b9db-9f37cf30ade3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([2, 2, 2])"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sum_arrays=x+y\n",
+    "sum_arrays"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a9e3e08f",
+   "metadata": {},
+   "source": [
+    "n.Create 2 arrays with the values that you wish :\n",
+    "- Concatenate vertically \n",
+    "- Concatenate horizontally "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "id": "9498ba90-cffd-4037-b0d4-ef9a53cce22f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 133,
+   "id": "6469da02",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[87 45 59 32]\n"
+     ]
+    }
+   ],
+   "source": [
+    "vent_0 =np.array([87,45,59,32])\n",
+    "print(vent_0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 131,
+   "id": "e74b900d-b3f9-46fd-804a-7b249729e495",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[[87 45]\n",
+      " [59 32]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "vent_1 =np.array([[87,45],[59,32]])\n",
+    "print(vent_1)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
